@@ -35,7 +35,7 @@ export default function useAuth() {
     //login user 
     const loginUser = async (data) => {
         const { email, password } = data;
-            return axios.post('${process.env.REACT_APP_API_URL}/api/signin', {
+            return axios.post(`${process.env.REACT_APP_API_URL}/api/signin`, {
                 email,
                 password,
             }).then((response) => {

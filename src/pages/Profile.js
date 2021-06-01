@@ -3,7 +3,7 @@ import Header from './../sections/Header';
 import axios from 'axios';
 import { UserContext } from '../hooks/UserContext';
 
-const PROFILE_URL = '${process.env.REACT_APP_API_URL}/api/profile';
+const PROFILE_URL = `${process.env.REACT_APP_API_URL}/api/profile`;
 
 export default function Profile() {
     const { user } = useContext(UserContext);

@@ -39,3 +39,28 @@ A sample is provided below:
 ```console
     REACT_APP_API_URL=https://blooming-sea-62499.herokuapp.com
 ```
+
+### `screenshots`
+Landing Page:
+![alt text](./images/landing_page.png "Landing Page")
+
+Login Page:
+![alt text](./images/login_page.png "Login Page")
+
+Signup Page:
+![alt text](./images/register_page.png "Register Page")
+
+User Dashboard:
+![alt text](./images/user_dash1.png "User Dashboard")
+
+User Dashboard with question expanded:
+![alt text](./images/user_dash2.png "User Dashboard")
+
+Create Challenge:
+![alt text](./images/create_challenge.png "Create Challenge")
+
+Top 10 questions:
+![alt text](./images/top_ten_questions.png "Top Ten Page")
+
+Profile Page:
+![alt text](./images/user_profile.png "User Profile")
